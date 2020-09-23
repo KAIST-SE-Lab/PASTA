@@ -1,3 +1,13 @@
+import adaptation_verification_layer.SMCModule;
+import data_analysis_layer.ForecastingEngine;
+import interaction_layer.Actuators;
+import interaction_layer.Sensors;
+import knowledge_layer.AdaptationGoalManager;
+import knowledge_layer.EnvironmentDatabase;
+import knowledge_layer.SystemModelManager;
+import knowledge_layer.TacticRepository;
+import specification.*;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 
