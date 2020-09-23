@@ -1,5 +1,5 @@
 public class EnvironmentData {
-    //todo: specify environment data
+    //todo: specify your environment data
 
     public EnvironmentData(){
     }

@@ -11,7 +11,7 @@ public class EnvironmentDatabase {
         historicalData.add(envData);
     }
 
-    public EnvironmentData getHistoricalEnvironmentData(int targetTime){
-        return historicalData.get(targetTime);
+    public ArrayList<EnvironmentData> getHistoricalEnvironmentData(){
+        return historicalData;
     }
 }
