@@ -1,3 +1,5 @@
+package adaptation_planner_layer;
+
 import adaptation_verification_layer.SMCModule;
 import data_analysis_layer.ForecastingEngine;
 import interaction_layer.Actuators;
@@ -70,7 +72,7 @@ public class ManagingSystem {
         actuators.execute(selectedTactic);
     }
 
-    public AdaptationTactic getOptimalTactic(HashMap<AdaptationTactic, VerificationResult> evaluations){
+    private AdaptationTactic getOptimalTactic(HashMap<AdaptationTactic, VerificationResult> evaluations){
         //todo: implement how to find optimal tactic
         AdaptationTactic optimalTactic = null;
         //find optimal one among evaluation sheets.

@@ -10,7 +10,6 @@ public class SystemModelManager {
 
     public void updateModel(){
         //todo: specify how to update model
-        sysModel.setModel();
     }
 
     public SystemModel getSysModel(){
