@@ -24,7 +24,7 @@ public class SMCModule {
         return verifier.verify(simResults, goal);
     }
 
-    public boolean isSufficient(){
+    private boolean isSufficient(){
         //todo: implement SMC algorithm's sample-sufficiency-checking method
         return true;
     }

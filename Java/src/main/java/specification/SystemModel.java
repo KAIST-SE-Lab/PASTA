@@ -6,8 +6,4 @@ public class SystemModel {
     public SystemModel(){
 
     }
-
-    public void setModel(){
-        //todo: specify how to set model
-    }
 }
