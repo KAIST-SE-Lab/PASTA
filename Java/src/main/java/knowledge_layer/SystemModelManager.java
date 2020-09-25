@@ -1,18 +1,19 @@
 package knowledge_layer;
-import specification.*;
+
+import specification.SystemModel;
 
 public class SystemModelManager {
     public SystemModel sysModel;
 
-    public SystemModelManager(SystemModel sys){
+    public SystemModelManager(SystemModel sys) {
         sysModel = sys;
     }
 
-    public void updateModel(){
+    public void updateModel() {
         //todo: specify how to update model
     }
 
-    public SystemModel getSysModel(){
+    public SystemModel getSysModel() {
         return sysModel;
     }
 }

@@ -1,19 +1,20 @@
 package knowledge_layer;
-import specification.*;
-import java.util.ArrayList;
+
+import specification.AdaptationGoal;
 
 public class AdaptationGoalManager {
     private AdaptationGoal goal;
 
-    public AdaptationGoalManager(AdaptationGoal adaptationGoal){
+    public AdaptationGoalManager(AdaptationGoal adaptationGoal) {
         goal = adaptationGoal;
     }
 
-    public void setGoal(AdaptationGoal newGoal){
+    public AdaptationGoal getGoal() {
+        return goal;
+    }
+
+    public void setGoal(AdaptationGoal newGoal) {
         goal = newGoal;
 
-    }
-    public AdaptationGoal getGoal(){
-        return goal;
     }
 }

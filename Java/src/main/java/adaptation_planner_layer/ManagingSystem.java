@@ -30,7 +30,7 @@ public class ManagingSystem {
     //Adaptation verification layer
     private SMCModule SMC;
 
-    public ManagingSystem(){
+    public ManagingSystem() {
         //todo: initialize your SAS
         envDB = new EnvironmentDatabase();
         SystemModel SASmodel = new SystemModel();
@@ -48,7 +48,7 @@ public class ManagingSystem {
         SMC = new SMCModule();
     }
 
-    public void adaptManagedSystem(){
+    public void adaptManagedSystem() {
         //step 1
         EnvironmentData monitoredData = sensors.monitor();
         envDB.addEnvironmentData(monitoredData);
@@ -61,7 +61,7 @@ public class ManagingSystem {
         HashMap<AdaptationTactic, VerificationResult> evaluations = new HashMap<AdaptationTactic, VerificationResult>();
         SystemModel sys = sysModelManager.getSysModel();
         AdaptationGoal goal = goalManager.getGoal();
-        for(AdaptationTactic tactic : tacticRepo.getPossibleTactics()){
+        for (AdaptationTactic tactic : tacticRepo.getPossibleTactics()) {
             evaluations.put(tactic, SMC.verifyAdaptationTactic(sys, tactic, prediction, goal));
         }
 
@@ -72,7 +72,7 @@ public class ManagingSystem {
         actuators.execute(selectedTactic);
     }
 
-    private AdaptationTactic getOptimalTactic(HashMap<AdaptationTactic, VerificationResult> evaluations){
+    private AdaptationTactic getOptimalTactic(HashMap<AdaptationTactic, VerificationResult> evaluations) {
         //todo: implement how to find optimal tactic
         AdaptationTactic optimalTactic = null;
         //find optimal one among evaluation sheets.
