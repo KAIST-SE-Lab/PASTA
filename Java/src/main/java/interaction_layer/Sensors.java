@@ -1,18 +1,19 @@
 package interaction_layer;
 
+import specification.EnvironmentData;
+
 import java.util.ArrayList;
-import specification.*;
 
 public class Sensors {
     private ArrayList<Sensor> sensors;
 
-    public Sensors(){
+    public Sensors() {
         //todo: specify your sensors
     }
 
-    public EnvironmentData monitor(){
-       //todo: monitor environment
-       EnvironmentData monitoredData = new EnvironmentData();
-       return monitoredData;
+    public EnvironmentData monitor() {
+        //todo: monitor environment
+        EnvironmentData monitoredData = new EnvironmentData();
+        return monitoredData;
     }
 }
