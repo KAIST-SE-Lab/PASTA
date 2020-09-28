@@ -8,7 +8,7 @@ SAS developers can save their time with this pre-implemented PASTA skeleton code
 
 # How to use PASTA skeleton
 1. Download the source code.
-2. Follow the "todo" signs and implement domain-specific codes. Domain-general PASTA implementation codes (structure and adaptation process) are already given to you.
+2. Follow the "todo" comments and implement domain-specific codes. Domain-general PASTA implementation codes (structure and adaptation process) are already given to you.
 3. Run your PASTA-based managing system to adapt your system. Refer the example "main" file.
 
 # Reference
