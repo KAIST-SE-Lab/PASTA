@@ -12,4 +12,5 @@ SAS developers can save their time with this pre-implemented PASTA skeleton code
 3. Run your PASTA-based managing system to adapt your system. Refer the example "main" file.
 
 # Reference
-You can find detail information about PASTA in our original paper. (Link: under review now)
+You can find detail information about PASTA in our original paper.
+- Yong-Jun Shin, Eunho Cho and Doo-Hwan Bae., PASTA: An Efficient Proactive Adaptation Approach Based on Statistical Model Checking for Self-Adaptive Systems, 24th International Conference on Fundamental Approaches to Software Engineering (FASE), 2021
